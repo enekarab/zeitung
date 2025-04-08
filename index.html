@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Abschluss Zeitung</title>
+</head>
+<body>
+<div class="container">
+    <header class="header-flex">
+        <h1 class="headtitle">Abschluss Zeitung</h1>
+        <div class="burger-menu" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <div class="burger-nav" id="burgerNav">
+        <a href="./index.html">Schlagzeile</a>
+        <a href="./assets/html/awards.html">Awards</a>
+        <a href="./assets/html/tafel.html">Steckbriefe</a>
+        <a href="./assets/html/videos.html">Videos</a>
+        <a href="./assets/html/videos.html">Abschluss</a>
+    </div>
+
+    <nav>
+        <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 20px;">
+            <li><a href="./index.html" style="text-decoration: none; color: #333; font-size: 1.2em;">Schlagzeile</a></li>
+            <li><a href="./assets/html/awards.html" style="text-decoration: none; color: #333; font-size: 1.2em;">Awards</a></li>
+            <li><a href="./assets/html/tafel.html" style="text-decoration: none; color: #333; font-size: 1.2em;">Steckbriefe</a></li>
+            <li><a href="./assets/html/videos.html" style="text-decoration: none; color: #333; font-size: 1.2em;">Videos</a></li>
+            <li><a href="#thema5" style="text-decoration: none; color: #333; font-size: 1.2em;">Abschluss</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+    <main>
+        <article>
+            <h2>Willkommen zur Klasse 25ASO1!</h2>
+            <p>Wir feiern einen besonderen Tag voller Erinnerungen und Freude. Hier sind einige Bilder von unserer Feier:</p>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./assets/img/carousel/0.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/1.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/2.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/3.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/4.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/5.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/6.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/img/carousel/7.png" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        
+            <hr>
+
+            <div class="together">
+                <div class="container">
+                    <a href="./assets/html/awards.html">
+                        <img src="assets/img/awards.jpg" alt="Awards">
+                    </a>
+                    <h5><strong>Und der Oscar geht an...</strong></h5>
+                    <p class="text">Die Abstimmung war hart, die Konkurrenz härter, aber wir haben entschieden! Unsere Klasse hat abgestimmt und das Ergebnis ist genauso wild wie wir. Entdecken Sie die schrägsten, lustigsten und ehrlichsten Awards des Jahres!</p>    
+                    </div>
+            
+                <div class="container">
+                    <p class="text">Unsere Lehrer haben ihre Gedanken über unsere Klasse festgehalten ehrlich, liebevoll, manchmal auch überraschend. </br>Und wir? Wir haben Steckbriefe über uns selbst und unsere Mitschüler verfasst. Wer wir wirklich sind?</p>
+                    <a href="./assets/html/lehrer.html">
+                        <img src="https://placehold.co/225x200">
+                    </a> 
+                </div>
+            </div>
+            
+            <div class="container fullwidth">
+                <table>
+                    <tr>
+                        <th style="width: 30%;">
+                            <a href="./assets/html/videos.html">
+                                <img src="https://placehold.co/225x200">
+                            </a>
+                        </th>
+                        <th style="width: 70%;">
+                            <p class="text">Ein Blick zurück auf unsere legendärsten Momente: Insiderwitze, die für immer bleiben, und Videos, die zeigen, wie viel Spaß wir zusammen hatten. Einmal klicken, hundertmal lachen.</p>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+
+
+    </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Abschluss Leo-Statz-Berufskolleg</p>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
