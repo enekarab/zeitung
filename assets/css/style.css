@@ -235,7 +235,7 @@ button {
 
   /* Modal (açılır kutu) */
   .modal {
-    background: white;
+    background: #fbf7f4;
     border-radius: 10px;
     max-width: 60%;
     max-height: 90%;
@@ -359,4 +359,9 @@ button {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    .modal {
+        max-width: 90%;
+        max-height: 70%;
+      }
 }
