@@ -3,6 +3,11 @@ var myCarousel = new bootstrap.Carousel(document.querySelector('#carouselExample
     wrap: true
 });
 
+var myCarousel2 = new bootstrap.Carousel(document.querySelector('#carouselExampleCaptions2'), {
+  interval: 3000,
+  wrap: true
+});
+
 function toggleMenu() {
     const nav = document.getElementById('burgerNav');
     nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
