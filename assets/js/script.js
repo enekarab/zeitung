@@ -27,3 +27,14 @@ function showModal(imageUrl) {
       closeModal();
     }
   });
+
+  function showCarouselModal(src) {
+    const overlay = document.getElementById("carouselModalOverlay");
+    const img = document.getElementById("carouselModalImage");
+    img.src = src;
+    overlay.style.display = "flex";
+  }
+
+  function closeCarouselModal() {
+    document.getElementById("carouselModalOverlay").style.display = "none";
+  }
