@@ -116,6 +116,28 @@ footer {
     margin-top: 20px;
     border-top: 2px solid #000; /* Oberstrich für den Footer */
     padding-top: 10px;
+    display: flex;
+    justify-content: space-between; /* Sol ve sağ öğeleri birbirinden ayırır */
+    align-items: center; /* Yükseklik hizalaması */
+}
+
+footer p {
+    margin: 0; /* Parantezde margin yok */
+}
+
+.download-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.download-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    fill: currentColor;
 }
 
 
