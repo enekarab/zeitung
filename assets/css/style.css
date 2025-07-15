@@ -110,6 +110,20 @@ article {
     margin: 20px 0;
 }
 
+.dwnld{
+  padding-top: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotopic{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 footer {
     text-align: center;
@@ -140,6 +154,12 @@ footer p {
     fill: currentColor;
 }
 
+.download-icon1 {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    fill: currentColor;
+}
 
 
 .awardscup{
